@@ -1,0 +1,35 @@
+version: '3.7' # docker-composeのver
+services:  # 具体的なcontainerはservices以下に記述する
+  rails: # rails用のcontainer、mysqlとは順不同
+    build: .
+    image: rails:1.0 # imageのver、管理用として名前をつければ良いverが変わるとDockerfileからbuildを始める
+    container_name: rails # containerの名前、dockerコマンドでよく指定するので、用途がわかりやすいものを付ける
+    tty: true
+    stdin_open: true
+    ports:
+      - "3000:3000" # ローカルとcontainerのポートを繋いでいる。:の左がローカル上のポート、右がcontaier上のポート
+    environment: 
+      RAILS_ENV: development # 環境変数はここに設定する
+    depends_on: # これが立ち上がってなければ起動しないという依存関係を設定する
+      - mysql
+    volumes: # マウント先、:を挟んで左がローカル上のdocker-composeがあるディレクトリ、右がcontainer内
+      - ./:/usr/local/src
+    # commandは立ち上がった後にcontainerのメインプロセスを設定する。コメントアウト時はirbが起動する
+    # command: "bash -c 'bundle && bin/rails db:migrate && bundle exec rails server'"
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    environment:
+      TZ: Asia/Tokyo
+      MYSQL_ROOT_PASSWORD: P@ssw0rd
+      MYSQL_DATABASE: app
+      MYSQL_USER: app
+      MYSQL_PASSWORD: app
+    ports:
+      - 3306:3306 
+    volumes:
+      - mysql-data:/var/lib/mysql
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
+volumes: # mysqlの保存データが永続化するようにvolumesに設定しておく
+  mysql-data:
+    name: mysql
