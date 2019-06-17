@@ -2,7 +2,7 @@ version: '3.7' # docker-composeのver
 services:  # 具体的なcontainerはservices以下に記述する
   rails: # rails用のcontainer、mysqlとは順不同
     build: .
-    image: rails:1.0 # imageのver、管理用として名前をつければ良いverが変わるとDockerfileからbuildを始める
+    image: rails:1.1 # imageのver、管理用として名前をつければ良いverが変わるとDockerfileからbuildを始める
     container_name: rails # containerの名前、dockerコマンドでよく指定するので、用途がわかりやすいものを付ける
     tty: true
     stdin_open: true
@@ -22,7 +22,7 @@ services:  # 具体的なcontainerはservices以下に記述する
     environment:
       TZ: Asia/Tokyo
       MYSQL_ROOT_PASSWORD: P@ssw0rd
-      MYSQL_DATABASE: app
+      MYSQL_DATABASE: study_graph_ql_in_d_group_dev
       MYSQL_USER: app
       MYSQL_PASSWORD: app
     ports:
