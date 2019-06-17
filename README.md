@@ -14,10 +14,10 @@ graph-qlにて下記の操作をかけるようになること
 
 ## 仕様
 
-Ruby 2.6.3
-Rails 5.2.3
-GraphQl-ruby 1.9.6
-Docker + docker-compose
+Ruby 2.6.3  
+Rails 5.2.3  
+GraphQl-ruby 1.9.6  
+Docker + docker-compose  
 
 ### テーブル構成
 ここに雑に書いてみた
