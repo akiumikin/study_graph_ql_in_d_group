@@ -14,6 +14,7 @@ graph-qlにて下記の操作をかけるようになること
 
 ## 仕様
 
+### 環境
 Ruby 2.6.3  
 Rails 5.2.3  
 GraphQl-ruby 1.9.6  
