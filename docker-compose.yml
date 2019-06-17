@@ -13,7 +13,7 @@ services:  # 具体的なcontainerはservices以下に記述する
     depends_on: # これが立ち上がってなければ起動しないという依存関係を設定する
       - mysql
     volumes: # マウント先、:を挟んで左がローカル上のdocker-composeがあるディレクトリ、右がcontainer内
-      - ./:/usr/local/src
+      - ./study_graphql/:/usr/local/src
     # commandは立ち上がった後にcontainerのメインプロセスを設定する。コメントアウト時はirbが起動する
     # command: "bash -c 'bundle && bin/rails db:migrate && bundle exec rails server'"
   mysql:
