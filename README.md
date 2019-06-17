@@ -31,5 +31,8 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/1
 ### Dockerfileとdocker-compose.ymlの生成 〜 railsプロジェクトの作成まで
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/2
 
+### マウントディレクトリの修正（rails new . --api で直下に作成している場合は多分不要）
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/4
+
 ### graph-qlの初期設定（graph-ql batchはまだ先）
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/3
