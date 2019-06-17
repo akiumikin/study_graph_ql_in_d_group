@@ -42,4 +42,6 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/3
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/5
 
 ## テーブル作成
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/6
 
+## graph-ql（graph-ql batch未使用の場合）
