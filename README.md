@@ -36,3 +36,9 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/4
 
 ### graph-qlの初期設定（graph-ql batchはまだ先）
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/3
+
+### mysql設定
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/5
+
+## テーブル作成
+
