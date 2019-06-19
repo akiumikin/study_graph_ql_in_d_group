@@ -35,9 +35,6 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/2
 マウントディレクトリの修正（rails new . --api で直下に作成している場合は多分不要）  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/4  
   
-graph-qlの初期設定（graph-ql batchはまだ先）  
-https://github.com/akiumikin/study_graph_ql_in_d_group/pull/3  
-  
 mysql設定  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/5  
   
@@ -48,3 +45,8 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/8
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/6
 
 ## graph-ql（graph-ql batch未使用の場合）
+graph-qlの初期設定（graph-ql batchはまだ先）  
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/3  
+  
+## デバッグ画面のためgraphiqlを入れる
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/9
