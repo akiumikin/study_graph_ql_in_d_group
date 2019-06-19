@@ -47,3 +47,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # https://github.com/rmosolgo/graphql-ruby
 # 2019/6/15時点の最新を設定
 gem 'graphql', '1.9.6'
+
+# https://github.com/rmosolgo/graphiql-rails
+# 2019/6/16時点の最新を設定
+gem 'graphiql-rails', '1.7.0'
