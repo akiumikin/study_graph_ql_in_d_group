@@ -48,5 +48,5 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/6
 graph-qlの初期設定（graph-ql batchはまだ先）  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/3  
   
-## デバッグ画面のためgraphiqlを入れる
-https://github.com/akiumikin/study_graph_ql_in_d_group/pull/9
+デバッグ画面のためgraphiqlを入れる  
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/9  
