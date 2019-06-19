@@ -40,6 +40,9 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/3
   
 mysql設定  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/5  
+  
+railsサーバーの起動
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/8
 
 ## テーブル作成
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/6
