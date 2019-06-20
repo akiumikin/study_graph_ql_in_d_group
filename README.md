@@ -53,3 +53,6 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/9
 
 フロントからのqueryに対してuserテーブルのレコードデータを返す
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/10  
+  
+1対多のリレーションデータを合わせて取得できるようにする（user ⇨ blogs）  
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/11  
