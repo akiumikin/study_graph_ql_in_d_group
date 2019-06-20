@@ -24,6 +24,9 @@ Docker + docker-compose
 ここに雑に書いてみた
 https://docs.google.com/presentation/d/1wXCPmpWFswAdv4UvA8YFB3msqDl7BgAJLmwXudOVfIQ/edit#slide=id.p
 
+なにも考えずに、userにtagつけるようにしちゃった...
+普通ならblogにtagな気がするけど勉強用だしこのままにしておく
+
 ## 環境構築編
 
 リポジトリにfirst_commitを入れる  
