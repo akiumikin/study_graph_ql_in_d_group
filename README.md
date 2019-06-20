@@ -59,3 +59,6 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/10
   
 1対多のリレーションデータを合わせて取得できるようにする（user ⇨ blogs）  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/11  
+
+多対多のリレーションデータを合わせて取得できるようにする（user ⇨ 中間テーブル ⇨ tags）  
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/12
