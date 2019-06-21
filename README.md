@@ -61,4 +61,7 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/10
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/11  
 
 多対多のリレーションデータを合わせて取得できるようにする（user ⇨ 中間テーブル ⇨ tags）  
-https://github.com/akiumikin/study_graph_ql_in_d_group/pull/12
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/12  
+
+userを複数同時に取得できるようにする（graph-qlのn+1問題）  
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/13 
