@@ -65,3 +65,5 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/12
 
 userを複数同時に取得できるようにする（graph-qlのn+1問題）  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/13 
+
+## graph-ql batchを入れる
