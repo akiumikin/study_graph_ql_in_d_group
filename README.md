@@ -8,8 +8,7 @@ graph-qlにて下記の操作をかけるようになること
 1. queryによる"単一のテーブルの情報"の取得
 1. queryによる"1対多の関係の情報"の取得（graph-ql batch）
 1. queryによる"多対多の関係の情報"の取得（graph-ql batch）
-1. mutationによる"単一のテーブルのCRUD"
-1. mutationによる"１対多の関係のテーブルのCRUD"
+1. mutationによるデータの作成・更新・削除
 1. その他、やろうかなって思ったことをやる
 
 ## 仕様
