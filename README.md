@@ -72,3 +72,7 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/13
 ## graph-ql batchを入れる
 userテーブルからのリレーションテーブルへの参照にgraph ql batchを使うようにする  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/14  
+
+## mutationを使用してデータの作成・更新・削除を行う
+userテーブルに対してmutationで作成・更新・削除を行う  
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/16  
