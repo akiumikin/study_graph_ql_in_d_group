@@ -10,12 +10,18 @@ class Types::UserType < Types::BaseObject
   end
   field :tags,       [Types::TagType],  null: true,  description: 'ユーザーに紐づくタグ全部'
 
+  def blogs
+    AssociationLoader.for(User, :blogs).load(object)
+  end
+
   def tag(id:)
-    object.tags.find(id)
+    AssociationLoader.for(User, :tags).load(object).then do |tags|
+      tags.detect { |tag| tag.id == id.to_i }
+    end
   end
 
   def tags
-    object.tags
+    AssociationLoader.for(User, :tags).load(object)
   end
 end
   
