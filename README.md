@@ -75,3 +75,7 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/14
 ## mutationを使用してデータの作成・更新・削除を行う
 userテーブルに対してmutationで作成・更新・削除を行う  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/16  
+
+## rspecを入れる
+userのcolumnおよびrelationの取得に対するrspecを追加  
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/18  
