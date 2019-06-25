@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :blog do
-    name { FFaker::LoremJA.sentence }
+    sequence(:name) { |n| "#{FFaker::LoremJA.sentence}_#{n}" }
     text { FFaker::LoremJA.paragraphs }
   end
 end

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe '【tag_type query via user】', type: :request do
-  let!(:user) { FactoryBot.create(:user) }
+  let!(:user) { FactoryBot.create(:user, :tags) }
 
   context 'tagsの取得の場合' do
     before do

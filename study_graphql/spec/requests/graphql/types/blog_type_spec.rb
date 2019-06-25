@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe '【blog_type query via user】', type: :request do
-  let!(:user) { FactoryBot.create(:user) }
+  let!(:user) { FactoryBot.create(:user, :blogs) }
 
   context 'blogsの取得の場合' do
     before do
