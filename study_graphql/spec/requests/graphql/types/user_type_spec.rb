@@ -20,7 +20,7 @@ RSpec.describe '【user_type query】', type: :request do
       @json = JSON.parse(response.body, symbolize_names: true)
     end
 
-    it '[id, name, createdAt, updatedAt]が返ること' do
+    it 'Userのattributesが返ること' do
       res_data = @json[:data][:user]
       expect_data = graphql_format(user)
 
