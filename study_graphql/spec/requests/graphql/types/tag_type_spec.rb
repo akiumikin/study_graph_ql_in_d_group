@@ -22,7 +22,7 @@ RSpec.describe '【tag_type query via user】', type: :request do
       @json = JSON.parse(response.body, symbolize_names: true)
     end
 
-    it 'tagsの[id, name, createdAt, updatedAt]が返ること' do
+    it 'tagsのTagsのattributesが返ること' do
       res_data = @json[:data][:user][:tags]
       expect_data = graphql_format(user.tags)
 

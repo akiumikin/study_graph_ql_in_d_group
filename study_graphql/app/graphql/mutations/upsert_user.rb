@@ -13,11 +13,11 @@ class Mutations::UpsertUser < Mutations::BaseMutation
     res_user = nil
 
     if id.present? # 更新処理
-      res_user = User.find(id).update!(name: name)
+      res_user = User.find(id).update_with_return_value({ name: name })
     else           # 作成処理
       res_user = User.create!(name: name)
     end
-    
+
     { user: res_user, error_message: nil }
   rescue => e
     { user: res_user, error_message: e.message }

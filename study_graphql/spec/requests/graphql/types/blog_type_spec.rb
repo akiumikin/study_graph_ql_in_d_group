@@ -24,7 +24,7 @@ RSpec.describe '【blog_type query via user】', type: :request do
       @json = JSON.parse(response.body, symbolize_names: true)
     end
 
-    it 'blogsの[id, userId, text, name, createdAt, updatedAt]が返ること' do
+    it 'blogsのBlogsのattributesが返ること' do
       res_data = @json[:data][:user][:blogs]
       expect_data = graphql_format(user.blogs)
 
