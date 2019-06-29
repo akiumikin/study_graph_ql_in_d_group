@@ -82,3 +82,8 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/18
   
 user関係のmutationのrspecを追加  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/22  
+
+## 試作
+### 権限管理
+思案：https://github.com/akiumikin/study_graph_ql_in_d_group/issues/24  
+試作：https://github.com/akiumikin/study_graph_ql_in_d_group/pull/27  
