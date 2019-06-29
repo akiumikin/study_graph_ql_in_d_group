@@ -10,4 +10,8 @@ class User < ApplicationRecord
     self.update!(update_hash) # これでreturnするとtrue/falseが返る
     self
   end
+
+  def model_method
+    'called model_method'
+  end
 end

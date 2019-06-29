@@ -1,5 +1,6 @@
 class Mutations::UpsertUser < Mutations::BaseMutation
   description 'ユーザーの作成・更新を行う'
+  model User
   
   # 作成用メソッドの引数
   argument :id,   ID,     required: false, description: 'ユーザーID、有：更新、無：作成'
@@ -10,6 +11,8 @@ class Mutations::UpsertUser < Mutations::BaseMutation
   field :error_message, String,          null: true, description: 'エラー発生時のサーバからのメッセージ'
   
   def resolve(id: nil, name:)
+    forbidden_mutation(context, 'ユーザー作成・更新') if context[:agent]
+
     res_user = nil
 
     if id.present? # 更新処理
