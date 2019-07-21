@@ -46,6 +46,9 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/8
 binding.pryを入れる  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/15  
   
+別ドメインのフロントエンドからのアクセスの設定  
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/28  
+  
 ## テーブル作成
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/6
 
