@@ -15,13 +15,8 @@ ENV LANG C.UTF-8
 ENV WORKSPACE=/usr/local/src
 
 # install bundler.
-RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
-    apt update && \
-    apt install -y less build-essential nodejs && \
+RUN apt update && \
     gem install bundler && \
-    npm install n -g && \
-    n 8.15.1 && \
-    npm install -g yarn && \
     apt clean
 
 # create user and group.
