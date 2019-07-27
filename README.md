@@ -1,4 +1,4 @@
-# study_graph_ql_in_d_group
+# Dの人たちとgraphql rubyを勉強するリポジトリ
 
 ## 目的
 リポジトリオーナーの周辺の人たちとGraphQL-Rubyの使い方の勉強をすることが目的  
