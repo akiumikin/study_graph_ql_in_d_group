@@ -17,7 +17,9 @@ graph-qlにて下記の操作をかけるようになること
 Ruby 2.6.3  
 Rails 5.2.3  
 GraphQl-ruby 1.9.6  
-Docker + docker-compose  
+Docker + docker-compose    
+rspec  
+rubocop  
 
 ### テーブル構成
 ここに雑に書いてみた
