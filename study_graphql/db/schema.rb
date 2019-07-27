@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_06_17_225630) do
 
-  create_table "blogs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "blogs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.string "name", null: false
     t.text "text", null: false
@@ -21,13 +21,13 @@ ActiveRecord::Schema.define(version: 2019_06_17_225630) do
     t.index ["user_id"], name: "index_blogs_on_user_id"
   end
 
-  create_table "tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin", force: :cascade do |t|
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "user_tag_relations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "user_tag_relations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin", force: :cascade do |t|
     t.bigint "user_id"
     t.bigint "tag_id"
     t.datetime "created_at", null: false
@@ -36,11 +36,10 @@ ActiveRecord::Schema.define(version: 2019_06_17_225630) do
     t.index ["user_id"], name: "index_user_tag_relations_on_user_id"
   end
 
-  create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin", force: :cascade do |t|
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["name"], name: "index_users_on_name", unique: true
   end
 
   add_foreign_key "blogs", "users"

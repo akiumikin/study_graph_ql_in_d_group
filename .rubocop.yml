@@ -1,0 +1,14 @@
+AllCops:
+  TargetRubyVersion: 2.6.3
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - !ruby/regexp /old_and_unused\.rb$/
+
+# 日本語のコメントを許可する
+Style/AsciiComments:
+  Enabled: false
