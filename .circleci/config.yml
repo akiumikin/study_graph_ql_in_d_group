@@ -41,8 +41,12 @@ jobs:
           key: v1-dependencies-{{ checksum "study_graphql/Gemfile.lock" }}
 
       # Database setup
-      - run: cd study_graphql && bundle exec rake db:create
-      - run: cd study_graphql && bundle exec rake db:migrate
+      - run:
+          name: Database setup
+          command: |
+            cd study_graphql
+            bundle exec rake db:create
+            bundle exec rake db:migrate
 
       # run tests!
       - run:
