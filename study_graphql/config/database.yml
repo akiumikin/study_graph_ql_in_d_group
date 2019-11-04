@@ -22,6 +22,9 @@ development:
 test:
   <<: *default
   database: study_graph_ql_in_d_group_test
+  host: <%= ENV.fetch("DB_HOST") { 'localhost' } %>
+  username: <%= ENV['DB_USERNAME'] || 'root' %>
+  password: <% ENV['DB_PASSWORD'] %>
 
 production:
   <<: *default
