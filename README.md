@@ -88,6 +88,10 @@ https://github.com/akiumikin/study_graph_ql_in_d_group/pull/16
 userのcolumnおよびrelationの取得に対するrspecを追加  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/18  
   
+## rspecをcircle ciを使って回せるようにする
+.circleci/config.ymlを追加
+https://github.com/akiumikin/study_graph_ql_in_d_group/pull/34
+  
 user関係のmutationのrspecを追加  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/22  
 
