@@ -22,6 +22,7 @@ development:
 test:
   <<: *default
   database: study_graph_ql_in_d_group_test
+  host: <%= ENV.fetch('MYSQL_HOST', 'localhost') %>
 
 production:
   <<: *default
