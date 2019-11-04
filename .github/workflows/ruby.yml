@@ -16,6 +16,7 @@ jobs:
     - name: Build and test with Rake
       run: |
         cd study_graphql
+        gem install mysql2 -v '0.5.2' --source 'https://rubygems.org/'
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec rake db:create
