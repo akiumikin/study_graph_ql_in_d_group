@@ -92,7 +92,7 @@ user関係のmutationのrspecを追加
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/22  
   
 ## rspecをcircle ciを使って回せるようにする  
-.circleci/config.ymlを追加
+.circleci/config.ymlを追加  
 https://github.com/akiumikin/study_graph_ql_in_d_group/pull/34
 
 ## 試作
